@@ -1,0 +1,2 @@
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\CortanaIntegrationWithDynamics365\CortanaIntegrationWithDynamics365.csproj;x86
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\VoiceCommandService\VoiceCommandService.csproj;neutral

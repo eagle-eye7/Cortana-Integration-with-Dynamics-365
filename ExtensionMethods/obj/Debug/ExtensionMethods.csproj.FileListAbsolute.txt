@@ -1,0 +1,17 @@
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\bin\Debug\ExtensionMethods.dll
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\bin\Debug\ExtensionMethods.pri
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\ExtensionMethods.csprojResolveAssemblyReference.cache
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\ExtensionMethods.dll
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\priconfig.xml
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\priconfig.xml.intermediate
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\layout.resfiles
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\layout.resfiles.intermediate
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\resources.resfiles
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\resources.resfiles.intermediate
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\pri.resfiles
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\pri.resfiles.intermediate
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\qualifiers.txt
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\qualifiers.txt.intermediate
+C:\Users\farham\Source\Workspaces\Dynamics.Cortana.Integration\CortanaIntegrationWithDynamics365\ExtensionMethods\obj\Debug\MultipleQualifiersPerDimensionFound.txt

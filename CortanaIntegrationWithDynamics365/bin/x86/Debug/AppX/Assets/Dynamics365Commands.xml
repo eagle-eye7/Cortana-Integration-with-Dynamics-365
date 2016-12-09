@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="DynamicsSet_en-us">
+    <AppName> Dynamics </AppName>
+    <Example> Dynamics 365 Commands </Example>
+
+    <Command Name="createRecord">
+      <Example>Create opportunity with the name Jack</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">Create {entityname} with [the] name {recordname}</ListenFor>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">Create {builtin:AppName} {entityname} with [the] name {recordname}</ListenFor>
+      <Feedback>Creating {entityname} named {recordname}</Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <Command Name="showAllUsers">
+      <Example> Show all users </Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> show [all] users </ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> show [all] {builtin:AppName} users </ListenFor>
+      <Feedback> Showing top 10 users... </Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <Command Name="deleteRecord">
+      <Example>Delete opportunity Maria</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">Delete {entityname} with [the] name {recordname}</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified">Delete {builtin:AppName} {entityname} with [the] name {recordname}</ListenFor>
+      <Feedback>Deleting {entityname} {recordname}</Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <Command Name="updateRecord">
+      <Example>Update opportunity Maria set Description to test</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">Update opportunity {opportunityname} set {fieldname} to {fieldvalue}</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified">Update {builtin:AppName} opportunity {opportunityname}</ListenFor>
+      <Feedback>Updating opportunity {opportunityname}</Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <Command Name="whenIsTripToDestination">
+      <Example> When is my trip to Las Vegas?</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> when is [my] trip to {destination}</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> when is [my] {builtin:AppName} trip to {destination} </ListenFor>
+      <Feedback> Looking for trip to {destination}</Feedback>
+      <VoiceCommandService Target="AdventureWorksVoiceCommandService"/>
+    </Command>
+    <Command Name="closeOpportunity">
+      <Example> Close opportunity TEST as WON</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> Close opportunity {opportunityname} as {status}</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> Close {builtin:AppName} opportunity {opportunityname} as {status}</ListenFor>
+      <Feedback> Closing opportunity as {status}... </Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <Command Name="showOpportunities">
+      <Example> Show active Opportunities </Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> show {status} opportunities</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> show {builtin:AppName} {status} opportunities</ListenFor>
+      <Feedback>Showing top 10 {status} opportunities...</Feedback>
+      <VoiceCommandService Target="D365VoiceCommandService"/>
+    </Command>
+    <PhraseList Label="fieldname">
+      <Item>Description</Item>
+      <Item>Sales Stage</Item>
+      <Item>Topic</Item>
+    </PhraseList>
+    <PhraseList Label="status">
+      <Item>ACTIVE</Item>
+      <Item>WON</Item>
+      <Item>OUTSOLD</Item>
+      <Item>CANCELLED</Item>
+    </PhraseList>
+    <PhraseList Label="destination">
+      <Item>London</Item>
+      <Item>Las Vegas</Item>
+      <Item>Melbourne</Item>
+      <Item>Yosemite National Park</Item>
+    </PhraseList>
+    <PhraseList Label="entityname">
+      <Item>Lead</Item>
+      <Item>Opportunity</Item>
+      <Item>Account</Item>
+      <Item>Contact</Item>
+    </PhraseList>
+    <PhraseTopic Label="opportunityname" Scenario="Dictation">
+      <Subject>Person Names</Subject>
+    </PhraseTopic>
+    <PhraseTopic Label="fieldvalue" Scenario="Dictation">
+      <Subject>Person Names</Subject>
+    </PhraseTopic>
+  <PhraseTopic Label="recordname" Scenario="Dictation">
+    <Subject>Person Names</Subject>
+  </PhraseTopic>
+  </CommandSet>
+</VoiceCommands>
