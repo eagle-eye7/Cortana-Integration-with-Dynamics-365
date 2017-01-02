@@ -20,14 +20,14 @@ namespace CortanaIntegrationWithDynamics365
     {
 
         // Crm Url
-        private const string _clientId = "2b482146-9afb-4273-9aa6-ebb5327da41f";
+        private const string _clientId = "";
         //CRM URL
-        private const string _resource = "https://cortanadynamics365.crm.dynamics.com";
+        private const string _resource = "https://c.crm.dynamics.com";
 
         private const string RedirectUri = "http://login.net";
 
         //Azure Directory OAUTH 2.0 AUTHORIZATION ENDPOINT
-        private const string _authority = "https://login.windows.net/cortanadynamics365.onmicrosoft.com";
+        private const string _authority = "https://login.windows.net/c.onmicrosoft.com";
 
         public static string _accessToken;
         //  public static NavigationService NavigationService { get; private set; }

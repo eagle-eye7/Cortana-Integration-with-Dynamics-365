@@ -54,7 +54,7 @@ namespace VoiceCommandService
         /// Get globalization-aware date formats.
         /// </summary>
         DateTimeFormatInfo dateFormatInfo;
-        private const string _authority = "https://login.windows.net/cortanadynamics365.onmicrosoft.com";
+        private const string _authority = "https://login.windows.net/c.onmicrosoft.com";
 
         //AuthenticationContext authContext = new AuthenticationContext(_authority, new FileCache());
         public async void Run(IBackgroundTaskInstance taskInstance)
